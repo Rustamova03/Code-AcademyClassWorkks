@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        nav{
+            border: 1px solid red;
+        }
+        #Header{
+            margin-top: 3px;
+            padding: 10px;
+            border: 1px solid mediumslateblue;
+        }
+        #section-1 {
+            margin-top: 3px;
+            padding: 10px;
+            border: 1px solid blue;
+        }
+        #FormSection1{ 
+            margin-top: 3px;
+            padding: 10px;
+            border: 1px solid yellowgreen
+        }
+        #FormSection2{ 
+            margin-top: 3px;
+            padding: 10px;
+            border: 1px solid purple;
+        }
+        #Footer{
+            margin-top: 3px;
+            padding: 10px;
+            border: 1px solid navy;
+        }
+      table,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th {
+        background-color: grey;
+      }
+   
+    </style>
+  </head>
+  <body>
+    <section id="Header">
+    <header >
+      <h1>This is a Header</h1>   </section>
+      <nav>
+        <h3>This is a Navigation</h3>
+        <ul type="none">
+          <li>
+            <a href="#Section1">Section1</a>
+          </li>
+          <li><a href="#Form Section">Form Section</a></li>
+          <li><a href="#Form Section 2">Form Section 2</a></li>
+          <li><a href="#Footer">Footer</a></li>
+        </ul>
+      </nav>
+    </header>
+   
+
+    <section id="section-1">
+      <h3>Section 1</h3>
+      <h4>Web Browsers</h4>
+      <label for=""
+        >Google Chrome,Firefox,and Internet Explorer are the most used browsers
+        today</label
+      >
+      <h3>Google Chrome</h3>
+      <label for="">Google Chrome in 2008.</label>
+      <h3>Article</h3>
+      <label for=""
+        >Internet Explorer is a free web browsers from Microsoft,released in
+        1995.</label
+      >
+      <h3>Mozilla Firefox</h3>
+      <label for=""
+        >Firefox is a free,open-source web browsers from Mozilla,released in
+        2004.</label
+      >
+    </section>
+    <section id="FormSection1">
+      <h3>Form Section1</h3>
+      <label for="">Name:</label>
+      <input type="text" name="" id="" />
+      <br />
+      <label for="">Gender:</label>
+      <input type="radio" name="name" />
+      <label for="">Male</label>
+      <input type="radio" name="name" />
+      <label for="">Female</label>
+      <br />
+      <form>
+        <label for="">Pets:</label>
+        <select>
+          <option value="">City</option>
+        </select>
+        <input type="submit" name="submit" />
+      </form>
+    </section>
+    <section id="FormSection2">
+      <h3>Form Section2</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email Address</th>
+          </tr>
+          <tr>
+            <td>Hilitary</td>
+            <td>Nykundi</td>
+            <td>tables@mail.com</td>
+          </tr>
+          <tr>
+            <td>Lary</td>
+            <td>Mak</td>
+            <td>developer@mail.com</td>
+          </tr>
+        </thead>
+      </table>
+      <br /><br />
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+          </tr>
+          <tr>
+            <td rowspan="2">Hilliary</td>
+            <td>Advanced Web</td>
+            <td>75</td>
+          </tr>
+          <tr>
+            <td>Operating System</td>
+            <td>60</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Lary</td>
+            <td>Advanced Web</td>
+            <td>80</td>
+          </tr>
+          <tr>
+            <td>Operating System</td>
+            <td>75</td>
+          </tr>
+          <tr>
+            <td colspan="5">Total average: 72,5</td>
+          </tr>
+        </thead>
+      </table>
+    </section>
+    <section id="Footer">
+      <h3>Footer</h3>
+      <label for="">Copyright all rights reserved.</label>
+    </section>
+  </body>
+</html>
