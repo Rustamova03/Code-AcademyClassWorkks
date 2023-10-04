@@ -61,3 +61,10 @@ table,th,td {
 input{
     border-radius: 10px;
 }
+.header-5{
+    background-color: rgb(201, 106, 122);
+}
+::placeholder{
+    list-style-type: none;
+    color: red;
+}
