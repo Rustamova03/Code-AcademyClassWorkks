@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding:0;
+}
+.text {
+    font-family: 'AR One Sans', sans-serif;
+    color: blue;
+    font-size: 30px;
+    font-weight: 700px;
+   text-transform: capitalize;
+   text-shadow: 5px 0 3px rgb(125, 225, 250);
+   text-decoration: underline;
+   margin: 5px;
+   padding: 10px;
+}
+.text1{
+    font-family: 'Martian Mono', monospace;
+    color: blueviolet;
+    font-size: 25px;
+    font-weight: 800px;
+    margin: 5px;
+    padding: 10px;
+}
+.text2{
+    font-family: 'Roboto Mono', monospace;
+    margin: 5px;
+    padding: 10px;
+}
+.text3{
+    font-family: 'Martian Mono', monospace;
+    color: aqua;
+    font-size: 25px;
+    font-weight: 800px;
+    margin: 5px;
+    padding: 10px;
+}
+.text4{
+    font-family: 'Martian Mono', monospace;
+    color: brown;
+    font-size: 25px;
+    font-weight: 600px;
+    margin: 5px;
+    padding: 10px;
+}
+.text5{
+    font-family: 'AR One Sans', sans-serif;
+    color: rgb(226, 43, 128);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px;
+    padding: 10px;
+}
