@@ -1,0 +1,31 @@
+*{
+margin: 0;
+padding: 0;
+}
+.header{
+  background-color: black;
+   height: 40px;
+}
+.box{
+    height: 100px;
+    background-color: rgb(32, 124, 124);
+    width: 200px;
+    border-radius: 5%;
+    border: 1px solid rgb(23, 131, 131);
+    margin: 20px;
+    padding: 50px;
+
+}
+.boxing{
+    display: flex;
+  flex-wrap: wrap;
+  margin:15px 150px ;
+}
+.footer{
+   height: 30px;
+   width: 90%;
+   border-radius: 5px;
+   border: 1px solid rgb(180, 57, 57);
+   background-color: rgb(182, 76, 76);
+   margin: 50px auto;
+}
