@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    height: 200vh;
+    padding: 0 20px;
+}
+.box1{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    color: yellowgreen;
+    height: 40px;
+    background-color: black;}
+p{
+    padding: 0 20px;
+    margin: 5px;
+}
