@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    display: flex;
+    flex: content;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: pink;
+    background-position: center;
+    height:100vh;
+}
+
+.form-in{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    row-gap: 15px;
+    background-color: white;
+    width: 350px;
+
+}
+.placeholder{
+    height: 40px;
+}
+.button{
+    background-color: blue;
+    color: white;
+    height: 30px;
+}
+.button1{
+    height: 50px;
+}
+.facebook{
+    font-size: 20px;
+    margin: 25px;
+}
+
