@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 0 10px;
+}
+.text1{
+    width: 80%;
+    height: 200px;
+    border: 5px solid rgb(7, 7, 116);
+    background-color: antiquewhite;
+}
+.text2{
+    width: 80%;
+    height: 200px;
+    border: 5px solid rgb(35, 11, 141);
+    background-color: rgb(71, 189, 71);
+}
+.text3{
+    width: 80%;
+    height: 200px;
+    border: 5px solid rgb(15, 15, 143);
+    background-color: rgb(1, 94, 1);
+}
+.text4{
+    width: 80%;
+    height: 200px;
+    border: 5px solid rgb(10, 10, 129);
+    background-color: rgb(75, 75, 212);
+}
