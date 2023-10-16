@@ -81,7 +81,55 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
 padding: 15px;
 }
+.header .fa-solid.fa-bars{
+    display: none;
+}
+.left{
+    width: 50%;
+}
+.icon i{
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 10px;
+}
+.footer{
+    display: flex;
+}
+.right{
+    width: 50%;
+    display: flex;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and(max-width:1200px){
+  .container{
+    padding:0 5%;
+  }  
+}
+
+
+
+
+@media screen and (max-width:767px){
+
+    .container .about nav li, .container .sign{
+  display: none;}
+  .header .fa-solid.fa-bars{
+    display: inline;
+  }
+    
+}
 
 
