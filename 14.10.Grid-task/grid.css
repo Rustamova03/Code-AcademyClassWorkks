@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(7,50px);
+    height: 100vh;
+    gap: 20px ;
+    padding: 5px;
+   
+}
+.container .box{
+background-color:rgb(51, 51, 110);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px 0;
+color: white;
+}
+.container .box:nth-child(1){
+    padding: 100px 0;
+    grid-row: span 3;
+    color: black;
+}
+.container .box:nth-child(2){
+    grid-column: span 2;
+   grid-row: span 5;
+}
+.container .box:nth-child(3){
+    padding: 100px 0;
+    grid-row: span 3;
+    color: black;
+}
+.container .box:nth-child(5){
+    grid-row: span 4;
+}
+ .container .box1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid gray;
+}
+.box1 img{
+    border-radius: 100%;
+}
+.container .box2{
+ background-image: url(./profile-picture.jpeg);
+ background-size: 100%;
+}
+.container .box3{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid gray;
+}
+.box3 img{
+    border-radius: 100%;
+}
+.container .box6{
+    background-color: orangered;
+}
+.container .box10{
+    background-color: orangered;
+}
