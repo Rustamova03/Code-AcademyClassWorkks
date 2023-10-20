@@ -12,8 +12,11 @@
     background-color: pink;
     background-position: center;
     height:100vh;
+    flex-direction: column;
 }
-
+a:link{
+    text-decoration: none;
+}
 .form-in{
     display: flex;
     flex-direction: column;
