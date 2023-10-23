@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heart{
+    display: flex;
+    justify-content: center;
+}
+.heart .fa-heart{
+    color: aquamarine;
+    font-size: 5rem;
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    height: 100vh;
+    background-image: url(./furniture.jpg);
+    background-size: cover;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.container nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.container nav ul li a{
+   color: white;
+}
+.department{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    gap: 50px;
+}
+.department h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+}
+.department p{
+    color: white;
+    font-size: 20px;
+}
+.department input{
+    padding: 15px 120px 15px 4px;
+    border: none;
+    border-radius: 50px;
+}
+.fa-solid{
+    position: relative;
+    right: 40px;
+}
