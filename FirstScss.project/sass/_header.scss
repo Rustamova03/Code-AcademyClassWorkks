@@ -1,0 +1,16 @@
+header{
+    background-color: aquamarine;
+    .header{
+        @include flexBox();
+        nav{
+            ul{
+                display: flex;
+                gap: 20px;
+                li{
+                    text-decoration: none;
+                    list-style: none;
+                }
+            }
+        }
+    }
+}

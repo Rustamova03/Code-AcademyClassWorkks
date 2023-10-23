@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: aquamarine;
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header nav ul {
+  display: flex;
+  gap: 20px;
+}
+header .header nav ul li {
+  text-decoration: none;
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    background-image: url(./fur.avif);
+    background-size: cover;
+    height: 100vh;
+    color:black;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.header nav ul {
+    display: flex;
+    gap: 70px;
+}
+.header nav ul li a {
+   color: white;
+}
+section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 70px;
+   
+}
+section div{
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 50px;
+}
+
+ section div h1{
+  font-size: 40px;
+}
+section input{
+   padding:  8px 70px 8px 5px;
+   border: 2px solid none;
+   border-radius: 50px;
+}
