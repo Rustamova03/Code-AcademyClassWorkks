@@ -1,0 +1,21 @@
+header {
+  background-color: $primary-color;
+  .header {
+    @include flexbox(space-between, center);
+    
+    nav {
+      ul {
+        @include flexbox(space-between, center);
+        gap: 40px;
+        li {
+          a {
+            color: $secondary-color;
+            &:hover {
+              color: aquamarine;
+            }
+          }
+        }
+      }
+    }
+  }
+}

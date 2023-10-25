@@ -1,0 +1,11 @@
+button{
+    background-color: $primary-color;
+    color: $secondary-color;
+    padding: 5px 25px;
+    border: 1px solid $secondary-color;
+    border-radius: 3px;
+    &:hover{
+        border: 1px solid rgb(180, 20, 180);
+        transition: 0.5s;
+    }
+}

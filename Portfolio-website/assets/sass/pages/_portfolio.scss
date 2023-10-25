@@ -1,0 +1,86 @@
+#portfolio{
+
+    #hero-banner{
+         background-color: $primary-color;
+
+        padding: 100px;
+        .hero-banner{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+
+            h1{
+                font-size: 72px;
+                font-weight: 800px;
+                line-height: 80px;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400px;
+                padding-top: 50px;
+                width: 500px;
+                text-align: center;
+            }
+        }
+    }
+    #boxes{
+        padding: 100px 0px;
+        background-color: $third-color;
+        .boxes{
+            @include flexbox (center,center);
+            text-align: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            
+        }
+        h3{
+            font-size: 30px;
+            color: $secondary-color;
+        }
+        .box{
+            gap: 30px;
+            width: 25%;
+            position: relative;
+            img {
+                width: 100%;
+            }
+            .content{
+                position: absolute;
+                left: 10%;
+                bottom: 10%;
+            }
+            button{
+                border-radius: 30px;
+                background-color: $secondary-color;
+                color: $primary-color;
+            }
+        }
+        .button{
+            @include flexbox (center,center);
+            padding: 50px;
+            button{
+                background-color: $secondary-color;
+                color: $primary-color;
+                transition: 1.2s;
+            }
+           
+
+        }
+    }
+    #all{
+        background-color: $third-color;
+
+        .all{
+            display: flex;
+            .left{
+                width: 50%;
+                @include flexbox(center,center);
+                flex-direction: column;
+            }
+            .right{
+                width: 50%;
+            }
+        }
+    }
+}

@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #28293e;
+  color: white;
+  padding: 5px 25px;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+button:hover {
+  border: 1px solid rgb(180, 20, 180);
+  transition: 0.5s;
+}
+
+header {
+  background-color: #28293e;
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+header .header nav ul li a {
+  color: white;
+}
+header .header nav ul li a:hover {
+  color: aquamarine;
+}
+
+#portfolio #hero-banner {
+  background-color: #28293e;
+  padding: 100px;
+}
+#portfolio #hero-banner .hero-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+#portfolio #hero-banner .hero-banner h1 {
+  font-size: 72px;
+  font-weight: 800px;
+  line-height: 80px;
+}
+#portfolio #hero-banner .hero-banner p {
+  font-size: 16px;
+  font-weight: 400px;
+  padding-top: 50px;
+  width: 500px;
+  text-align: center;
+}
+#portfolio #boxes {
+  padding: 100px 0px;
+  background-color: #fdf0e9;
+}
+#portfolio #boxes .boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+#portfolio #boxes h3 {
+  font-size: 30px;
+  color: white;
+}
+#portfolio #boxes .box {
+  gap: 30px;
+  width: 25%;
+  position: relative;
+}
+#portfolio #boxes .box img {
+  width: 100%;
+}
+#portfolio #boxes .box .content {
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+}
+#portfolio #boxes .box button {
+  border-radius: 30px;
+  background-color: white;
+  color: #28293e;
+}
+#portfolio #boxes .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+#portfolio #boxes .button button {
+  background-color: white;
+  color: #28293e;
+  transition: 1.2s;
+}
+#portfolio #all {
+  background-color: #fdf0e9;
+}
+#portfolio #all .all {
+  display: flex;
+}
+#portfolio #all .all .left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#portfolio #all .all .right {
+  width: 50%;
+}/*# sourceMappingURL=main.css.map */
