@@ -52,11 +52,84 @@ table {
   border-spacing: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 50px;
 }
 
-.bacground-section {
-  background-image: url("../images/cover.svg");
+.banner {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.banner h1 {
+  font-size: 58px;
+  width: 509px;
+  height: 130px;
+}
+.banner h4 {
+  width: 376px;
+  height: 60px;
+  font-size: 20px;
+}
+.banner .button {
+  display: flex;
+  gap: 15px;
+}
+.banner .button .Get-Quote {
+  padding: 10px 36px 10px 36px;
+  border-radius: 37px;
+  font-weight: 700;
+}
+.banner .button .Learn-more {
+  padding: 10px 36px 10px 36px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 37px;
+}
+
+.background-section {
+  background-image: url("../../../assets/images/cover.svg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.background-section .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.background-section .header nav ul {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.background-section .header nav ul li a:hover {
+  color: black;
+}
+
+footer {
+  padding: 50px;
+}
+footer .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+footer .footer .box {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  text-align: center;
+  border: 2px solid black;
+  height: 100px;
 }/*# sourceMappingURL=main.css.map */

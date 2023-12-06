@@ -1,8 +1,7 @@
-@import "./assets/sass/base/reset";
-@import "./assets/sass/utils/variables";
-@import "./assets/sass/base/global";
-@import "./assets/sass/utils/mixins";
-@import "./components/button";
+@import "./base/reset";
+@import "./base/global";
 @import "./layout/header";
-@import "./layout/footer";
+@import "./layout/banner";
+@import "./components/button";
 @import "./pages/home";
+@import "./layout/footer";

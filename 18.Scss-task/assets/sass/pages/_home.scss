@@ -1,6 +1,27 @@
-.bacground-section{
-    background-image: url("../images/cover.svg");
+.background-section{
+    background-image: url('../../../assets/images/cover.svg');
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+    
+        nav{
+            ul{
+                display: flex;
+                column-gap: 20px;
+                li{
+                    a{
+                        &:hover{
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
