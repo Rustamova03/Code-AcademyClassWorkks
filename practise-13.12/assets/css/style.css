@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: rgb(236, 217, 194);
+    padding: 30px;
+    position: fixed;
+
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   
+}
+.header nav ul{
+    display: flex;
+    gap: 20px;
+}
+.header nav ul li a{
+  color: black;
+  font-size: 18px;
+}
+.userlist{
+    padding: 50px;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.form{
+    display: flex;
+    padding: 150px;
+}
+.adduser{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 20%;
+}

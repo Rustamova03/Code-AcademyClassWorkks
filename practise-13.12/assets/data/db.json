@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "name": "Chef",
+      "surname": "Skinner",
+      "email": "Chef@gmail.com",
+      "date": "5/17/2023, 10:17:45 AM",
+      "userphoto": "./assets/img/Chef.jpeg",
+      "id": 2
+    },
+    {
+      "name": "Gusteau",
+      "surname": "Auguste",
+      "email": "gusteau@gmail.com",
+      "date": "5/17/2023, 10:18:12 AM",
+      "userphoto": "./assets/img/Qusto.jpg",
+      "id": 3
+    },
+    {
+      "name": "Remy",
+      "surname": "mouse",
+      "email": "remy@gmail.com",
+      "date": "5/17/2023, 10:21:36 AM",
+      "userphoto": "./assets/img/remy2.jpg",
+      "id": 4
+    },
+    {
+      "name": "Collete",
+      "surname": "Tatou",
+      "email": "collete@gmail.com",
+      "date": "5/17/2023, 10:19:21 AM",
+      "userphoto": "./assets/img/Collete.jpg",
+      "id": 5
+    },
+    {
+      "name": "ego2",
+      "surname": "Anton",
+      "email": "ego2@gmail.com",
+      "date": "5/17/2023, 10:35:36 AM",
+      "userphoto": "./assets/img/Iqo.jpg",
+      "id": 6
+    },
+    {
+      "name": "Myles",
+      "surname": "Mclean",
+      "email": "zowyvyha@mailinator.com",
+      "date": "12/13/2023, 1:01:12 AM",
+      "userphoto": "./assets/img/Remy.jpg",
+      "id": 8
+    },
+    {
+      "id": 9
+    }
+  ]
+}
