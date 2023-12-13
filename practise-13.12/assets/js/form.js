@@ -30,3 +30,7 @@ form.addEventListener("submit", function (event) {
   }
   allInputs.forEach((item) => (item.value = ""));
 });
+
+function goBack() {
+  window.history.back();
+}
